@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'SoDoSans';
+    src: url(fonts/SoDoSans-Regular.woff);
+}
+strong {
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+}
+hr{
+    border: 0;
+    border-top: 2px solid #cecdcd71;
+}
+.header-bar {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 2px .5px .2px #86868640;
+    justify-content: space-between;
+}
+.title-logo {
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.logo-prt {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    gap: 20px;
+}
+.header-text {
+    font-family: 'SoDoSans';
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 5px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+.header-text:hover {
+    color: #00754a;
+    cursor: pointer;
+}
+.find-text {
+    padding-left: 10px;
+    font-family: 'SoDoSans';
+    font-size: 14px;
+    font-weight: 600;
+}
+.find-text:hover {
+    color: #00754a;
+    cursor: pointer;
+}
+.signup-container{
+    display: flex;
+    align-items: center;
+}
+.sign-up {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.location {
+    width: 26px;
+    height: 28px;
+}
+.sign-in-btn, .sign-up-btn {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 33px;
+    font-size: 14px;
+    font-family: 'SoDoSans';
+    font-weight: 600;
+    outline: 0;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.sign-in-btn {
+    border-radius: 28px;
+    background-color: #ffffff;
+}
+.sign-up-btn {
+    border-radius: 28px;
+    background-color: #000000;
+    color: white;
+}
+.sign-up-btn:hover {
+    background-color: #000000c2;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    align-items: stretch;
+    margin-top: 30px;
+}
+
+.text {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'SoDoSans';
+    font-weight: 600;
+    color: white;
+}
+
+.text-part-4 h1, .text-part-5 h1, .text-part-6 h1 {
+    font-size: 26px;
+}
+.body-container p{
+    display: flex;
+    color: white;
+    font-size: 26px;
+    font-family: 'SoDoSans';
+    text-align: center;
+    padding-bottom : 40px;
+}
+.text-part-4 p, .text-part-5 p, .text-part-6 p {
+    font-size: 20px;
+}
+.text-part-1 {
+    background-color: #0b7a55;
+}
+.text-part-2 {
+    background-color: #8e0031;
+}
+.text-part-3{
+    background-color: #06ce8d;
+}
+.text-part-4{
+    background-color: #8e0031;
+}
+.text-part-5{
+    background-color: #f2f0eb;
+}
+.text-part-6{
+    background-color: #00754a;
+}
+.text-part-7{
+    background-color: #1e3932;
+}
+.text-part-8{
+    background-color: #00754a;
+}
+.image-body{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+.order-now-btn {
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+    border-radius: 28px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.order-now-btn:hover{
+    background-color: #4b4b4b25;
+}
+
+.item-3 h1, .item-3 p{ 
+    color: #1e3932;
+}
+.item-3 .order-now-btn {
+    color: #1e3932;
+    border: 1px solid #1e3932;
+}
+.item-5 h1, .item-5 p{ 
+    color: #006241;
+}
+.item-5 .order-now-btn {
+    color: #006241;
+    border: 1px solid #006241;
+}
+
+.long-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: black;
+    align-items: center;
+}
+.long-text p{
+    color: black;
+    font-size: 15px;
+    padding-left: 350px;
+    padding-right: 350px;
+    line-height: 1.5;
+}
+.footer-container {
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.footer-text {
+    margin-left: 20px;
+    width: 210px;
+    background-color: transparent;
+}
+.footer-text ul {
+    font-family: 'SoDoSans';
+    font-size: 15px;
+    color: #00000094;
+}
+.foot-text {
+    margin-bottom: 20px;
+}
+.foot-text:hover {
+    color: #000000;
+    cursor: pointer;
+}
+.text-head:hover {
+    cursor: text;
+}
+.text-head {
+    font-size: 18px;
+    color: black;
+}
+.footer-icons{
+    display: flex;
+    padding-left: 38px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    opacity: 88%;
+}
+.app-icon-img {
+    width: 33px;
+    height: 33px;
+}
+.app-icons {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 0;
+    background-color: transparent;
+    padding-top: 2px;
+}
+.app-icons:hover {
+    background-color: #cacaca75;
+    transition: all 0.3 ease-in;
+}
+.hr-2 {
+    width: 93%;
+    margin: 0 auto;
+}
+.final-text-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+    width: fit-content;
+}
+.text-last {
+    color: #000000;
+    font-size: 15px;
+    font-family: 'SoDoSans';
+    line-height: 2.8;
+    text-decoration: none;
+}
+.text-last:hover {
+    text-decoration: underline;
+}
+.copyright{
+    color: #00000094;
+    font-family: 'SoDoSans';
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
