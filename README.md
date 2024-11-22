@@ -1,3 +1,3 @@
 you can see my webpage that is a clone of Starbucks official site using the link below....
 
- https://joyal-74.github.io/webpage-clone/
+ [click Here to view](https://joyal-74.github.io/starbucks-clone/)
